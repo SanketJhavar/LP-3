@@ -2,6 +2,11 @@
 using namespace std;
 
 int partition(vector<int> &arr, int low, int high) {
+    // Generate a random index between low and high
+    // int randomIndex = low + rand() % (high - low + 1);
+
+    // Swap the randomly chosen element with the first element
+    // swap(arr[randomIndex], arr[low]);
     int pivot = arr[low];
     int i = low;
     int j = high;
